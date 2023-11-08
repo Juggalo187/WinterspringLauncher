@@ -12,7 +12,7 @@ public class LauncherConfig
     public int ConfigVersion { get; set; } = 1;
 
     public string GitRepoWinterspringLauncher { get; set; } = "Juggalo187/WinterspringLauncher";
-    public string GitRepoHermesProxy { get; set; } = "WowLegacyCore/HermesProxy";
+    public string GitRepoHermesProxy { get; set; } = "Juggalo187/HermesProxy";
     public string GitRepoArctiumLauncher { get; set; } = "Arctium/WoW-Launcher";
 
     public string WindowsGameDownloadUrl { get; set; } = DEFAULT_CONFIG_VALUE;
@@ -20,7 +20,7 @@ public class LauncherConfig
     public string GamePatcherUrl { get; set; } = DEFAULT_CONFIG_VALUE;
 
     public string HermesProxyPath { get; set; } = "./hermes-proxy";
-    public string GamePath { get; set; } = "./World of Warcraft 1.14.0";
+    public string GamePath { get; set; } = "./World of Warcraft 1.14.2";
     public string ArctiumLauncherPath { get; set; } = "./arctium-launcher";
     public bool RecreateDesktopShortcut { get; set; } = !RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
     public bool AutoUpdateThisLauncher { get; set; } = false;

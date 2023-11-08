@@ -104,7 +104,7 @@ class Launcher
         else if (hermesProcess.HasExited)
         {
             ColorConsole.Yellow("Hermes Proxy has exited?");
-            Console.WriteLine("Please report any errors to https://github.com/WowLegacyCore/HermesProxy");
+            Console.WriteLine("Please report any errors to https://github.com/Juggalo187/HermesProxy");
             Thread.Sleep(TimeSpan.FromSeconds(5));
             Console.WriteLine("Press any enter to close this window");
         }
